@@ -29,6 +29,7 @@ export default StyleSheet.create({
         borderBottomWidth: StyleSheet.hairlineWidth,
         paddingVertical: 15,
         backgroundColor: colors.grayBackground,
+        paddingHorizontal: 5,
       },
       actionInfo: {
         flexDirection: 'column',
@@ -37,7 +38,7 @@ export default StyleSheet.create({
         flexDirection: 'row',
       },
       actionIcon: {
-        marginLeft: 13,
+        marginRight: 13,
       },
       actionLabel: {
         color: colors.subtleText,
@@ -51,5 +52,6 @@ export default StyleSheet.create({
       },
       infoContainer: {
         paddingVertical: 15,
+        paddingHorizontal : 5,
       },
 })

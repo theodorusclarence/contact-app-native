@@ -1,4 +1,6 @@
-import {StackNavigator} from 'react-navigation';
+import React from 'react';
+import {StackNavigator, TabNavigator} from 'react-navigation';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 import Contacts from '../screens/Contacts';
 import Details from '../screens/Details';
