@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, ScrollView } from 'react-native';
-import {Header, Actions} from '../component/UserDetails';
+import {Header, Actions, Info} from '../component/UserDetails';
 import colors from '../config/colors';
 
 export default function Details({route, params}) {
@@ -9,6 +9,7 @@ export default function Details({route, params}) {
         <ScrollView style={{ backgroundColor: colors.background }}>
             <Header {...contact}/>
             <Actions {...contact} />
+            <Info {...contact} />
         </ScrollView>
     );
 }
