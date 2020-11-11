@@ -9,7 +9,6 @@ export default function Details({route, params}) {
         <ScrollView style={{ backgroundColor: colors.background }}>
             <Header {...contact}/>
             <Actions {...contact} />
-            <Info {...contact} />
         </ScrollView>
     );
 }

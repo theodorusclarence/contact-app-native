@@ -1,6 +1,6 @@
 import React, { PropTypes } from 'react';
 import { View } from 'react-native';
-import moment from 'moment';
+
 
 import styles from './styles';
 import Row from './Row';
